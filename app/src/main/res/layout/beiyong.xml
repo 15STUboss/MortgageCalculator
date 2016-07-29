@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="#dedcd2"
+        >
+        <TableRow
+            android:background="#dedcd2"
+            android:layout_margin="0.5dip"
+            android:gravity="center"
+            >
+        <TextView
+            android:text="序号"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+            <TextView
+                android:text="交易日期"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:text="合计"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:text="本金"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:text="利息"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:text="本金余额"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="#dedcd2"
+        android:id="@+id/TableLayout01"
+        >
+        <TableRow
+            android:background="#dedcd2"
+            android:layout_margin="0.5dip"
+            >
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

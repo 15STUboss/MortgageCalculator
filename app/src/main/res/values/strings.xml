@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MortgageCalculator</string>
+    <string name="tips1">请输入您的信息:</string>
+    <string name="textview1">贷款总额:</string>
+    <string name="textview2">年利率:</string>
+    <string name="textview3">贷款期限:</string>
+    <string name="textview4">起贷时间:</string>
+    <string name="textview_sum">贷款总额:</string>
+    <string name="textview_result">计算结果:</string>
+</resources>
